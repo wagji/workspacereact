@@ -1,0 +1,5 @@
+package com.lab.DiaryAppBE.Diary.Controller;
+
+public class DiaryController {
+
+}

@@ -1,0 +1,25 @@
+package com.lab.DiaryAppBE.Diary.DTO;
+
+
+import java.util.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class DiaryDTO 
+{
+	private long id;
+	
+	private java.sql.Timestamp date;
+	
+	private String content;
+	
+	private int emotionId;
+
+}

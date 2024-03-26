@@ -1,0 +1,23 @@
+package com.lab.DiaryAppBE.Diary;
+
+import java.sql.Timestamp;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+public class TimeStamp 
+{
+	@JsonFormat(pattern = "yyyy-MM-DD'T'hh:mm", timezone = "Asia/Seoul")
+	private Timestamp time;
+
+	public Timestamp getTime() 
+	{
+		return time;
+	}
+
+	public void setTime(Timestamp time) 
+	{
+		this.time = time;
+	}
+	
+
+}

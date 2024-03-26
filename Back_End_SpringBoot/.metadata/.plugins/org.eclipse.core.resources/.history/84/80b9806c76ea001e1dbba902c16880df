@@ -1,0 +1,20 @@
+package com.lab.DiaryAppBE.Diary;
+
+import java.sql.Timestamp;
+
+public class TimeStamp 
+{
+	private Timestamp time;
+
+	public Timestamp getTime() 
+	{
+		return time;
+	}
+
+	public void setTime(Timestamp time) 
+	{
+		this.time = time;
+	}
+	
+
+}

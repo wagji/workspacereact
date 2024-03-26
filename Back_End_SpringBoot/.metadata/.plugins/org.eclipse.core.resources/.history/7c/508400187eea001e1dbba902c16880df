@@ -1,0 +1,16 @@
+package com.lab.DiaryAppBE.Diary;
+
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.util.Date;
+
+public class TimeConvert 
+{
+	String str = "2024-02-02";
+	Timestamp ts;
+	LocalDateTime ldt;
+	Date date;
+	Instant instant;
+	
+}

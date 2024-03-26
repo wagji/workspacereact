@@ -1,0 +1,7 @@
+package com.lab.DiaryAppBE.Diary;
+
+public class TimeConvert 
+{
+	String str = "2024-02-02";
+	
+}
